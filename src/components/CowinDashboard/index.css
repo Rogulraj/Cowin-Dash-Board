@@ -1,0 +1,58 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+body {
+  margin: 0px;
+}
+.loader-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.dash-board-bg-card {
+  background-color: #161625;
+  min-height: 100vh;
+  padding: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.logo-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.website-logo-image-style {
+  height: 40px;
+  width: 40px;
+}
+.logo-text {
+  color: #2cc6c6;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.co-win-text {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.failed-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failed-image-style {
+  height: 300px;
+  width: auto;
+}
+.failed-text-style {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Lobster;
+  margin-top: 20px;
+}
